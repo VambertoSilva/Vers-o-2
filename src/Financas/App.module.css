@@ -1,0 +1,70 @@
+.Container{
+    width:60vw;
+    margin: 0 auto 0 auto;
+    position: relative;
+    font-family:"Inter"
+
+}
+
+.ContainerWithBlur{
+    width:60vw;
+    margin: 0 auto 0 auto;
+    position: relative;
+    filter:blur(2px);
+}
+
+.Cards{
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainCards{
+    margin-top:2.4em;
+    display:flex;
+    justify-content: space-between
+}
+
+
+.background{
+    background-color: #EDF3FB; 
+    padding-bottom: 4em;
+    min-height: 100vh;
+    height: auto;
+
+
+}
+
+@media screen and (max-width: 1000px) {
+.Container{
+    width:80vw;
+    margin: 0 auto 0 auto;
+    position: relative;
+    font-family:"Inter"
+
+}
+
+.ContainerWithBlur{
+    width:80vw;
+    margin: 0 auto 0 auto;
+    position: relative;
+    filter:blur(2px);
+}
+
+.Cards{
+    display:flex;
+    flex-direction: column;
+}
+
+.mainCards{
+    margin-top:2.4em;
+    display:flex;
+    justify-content: space-between
+}
+
+.background{
+    background-color: #EDF3FB; 
+    padding-bottom: 4em;
+
+}
+
+}

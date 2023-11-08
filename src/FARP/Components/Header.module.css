@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+
+
+
+.Header{
+    
+    width: 100vw;
+    object-fit: cover;
+    height: 80vh;
+    z-index: -1;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.head{
+
+    max-width: 1227px;
+    width: 80vw;
+    margin: 20px auto 0 auto;
+    display: flex;
+   
+}
+.logo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size:28px;
+}
+
+.button{
+    margin-left: auto;
+    border-radius: 8px;
+    width: 150px;
+    border: none;
+    height: 35px;
+    font-family: 'Inter', sans-serif;
+    -webkit-box-shadow: 0px 3px 66px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 66px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 66px -14px rgba(0,0,0,0.75);
+
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+
+}

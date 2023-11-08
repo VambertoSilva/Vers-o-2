@@ -1,0 +1,56 @@
+.row{
+    margin: 0 auto;
+    width: 90vw;
+    max-width:1227px;
+    display:flex;
+    border-top: 2px solid rgba(255, 255, 255, 0.444);
+    padding: 3rem 0 ;
+    font-family: "Space Mono", monospace;
+    align-items: center;
+
+}
+
+.grid-1{
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+
+.grid-2{
+    padding-right: 4rem;
+    font-size: 2rem;
+}
+
+.my-1, .my-2{
+font-size: 3.744rem;
+}
+
+.my-3{
+    font-size: 1.6rem;
+}
+
+@media screen and  (max-width: 992px){
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+ .my-1, .my-2{
+  font-size: 2rem;
+   text-align: center;
+
+ }
+ .my-3{
+    text-align: center;
+ }
+
+}
+
+
+@media screen and  (max-width: 815px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

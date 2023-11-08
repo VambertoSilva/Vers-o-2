@@ -1,0 +1,589 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Russo+One&family=Space+Mono&display=swap");
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+   font-size:62.5%; 
+}
+
+body {
+  overflow-x: hidden;
+  width:100vw;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #090514;
+  border-radius: 40px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #100d17;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #5c5c5c;
+}
+
+
+.Link{
+text-decoration: none;
+color:white;
+}
+
+
+
+
+  .ViewPort_1{
+  /* background-color: #100d17; */
+  height:100vh;
+  background: linear-gradient(45deg, #100d17, #462890, #340795);
+  background-size:300% 300%;
+  animation: color 6s ease-in-out infinite;
+}
+
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+  header {
+    width: 96%;
+    display: flex;
+    gap: 6rem;
+    font-size: 2.0rem;
+    font-family: "Space Mono", monospace;
+    color: #d1d0d0;
+    align-items: center;
+    position: relative;
+    top: 1.4rem;
+    left: 2%;
+    right: 2%;
+  }
+  .Logo {
+    width: 99px;
+    height: auto;
+  }
+  .Menu {
+    display: none;
+  }
+  .HeaderPortifolio {
+    margin-left: auto;
+    font-weight: 1;
+  }
+
+  header:hover {
+    cursor: pointer;
+  }
+  .HeaderSobre {
+    font-weight: 1;
+  }
+  .HeaderSkils {
+    font-weight: 1;
+  }
+  .HeaderContato {
+    font-weight: 1;
+  }
+
+  .LogoMobile{
+    display: none;
+  }
+
+  .MainTitle,
+  .MainSubTitle {
+    color: white;
+    margin-left: 2.4vw;
+    position: relative;
+    animation: slide-up 2s ease;  
+  }
+  .MainTitle {
+    font-family: "Russo One", sans-serif;
+    font-weight: 1;
+    margin-top: 42vh;
+    font-size: 7.04rem;
+    line-height: 46.4px;
+  }
+  .MainSubTitle {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 1;
+    font-size: 28.8px;
+    margin-left: 3.6vw;
+    letter-spacing: 2px;
+  }
+  .Front-End {
+    color: #5125ff;
+  }
+  .Pc {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    left: 40vw;
+    top: 20vh;
+    animation: slide-up 2s ease;  
+  }
+
+  .Main{
+    width:90vw;
+    margin: 0 auto;
+  }
+
+  /* Segunda View port */
+
+  .ViewPort_2 {
+    height: fit-content;
+    width: 100vw;
+    background-color: #110134;
+    display: flex;
+    align-items: center;
+  }
+
+  .MinhaDescricao {
+    width: 40vw;
+    max-width: 442px;
+    color: white;
+    margin-left: 4rem;
+  }
+  .EuMobile {
+    display: none;
+  }
+  .Eu {
+    width: 540px;
+    height: auto;
+    margin-top: 4rem;
+  }
+  .QuemEVambertoSilva {
+    font-family: "Russo one", sans-serif;
+    font-size: 3.2rem;
+  }
+  .MinhaDescricaoEmTexto {
+    font-family: "Space mono", monospace;
+    line-height: 19.2px;
+    font-weight: 1;
+    margin-top: 4.8vh;
+    font-size:1.6rem;
+  }
+  .BtnConhecerMais {
+    display: block;
+    margin: 2.2rem auto 0 auto;
+    padding: 10px 18px 10px 18px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    background-color: #3d1db7;
+    font-family: "Archivo black", sans-serif;
+    font-weight: 1;
+    font-size: 1.3rem;
+  }
+
+  .animated-item {
+  opacity: 0;
+  transition: opacity 1s ease;
+  }
+  .animated-item.animate {
+  opacity: 1;
+  }
+
+  /* View port 3 */
+
+  .ViewPort_3 {
+    width: 100vw;
+    height: fit-content;
+    background-color: #1b0c41;
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 0.5;
+    align-items: center;
+    padding-bottom: 8rem;
+  }
+
+  .none {
+    color: #15102000;
+  }
+
+  .ViewPort_3Title {
+    text-align: center;
+    font-weight: 2;
+    font-size: 4.66rem;
+    margin-top: 40px;
+    margin-bottom: 10rem;
+  }
+   .ViewPort_3Line {
+
+    width: 90vw;
+    max-width:1227px;
+    height: 2px;
+    margin: 0 auto 0 auto; 
+    background-color: rgba(255, 255, 255, 0.444);
+  } 
+
+.ProjetoContainerM {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProjetoContainer {
+  width: 300px;
+  height: 150px;
+  background-color: #3498db;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.talk{
+  text-align: center;
+  font-size: 40px;
+  margin: 200px 0 0 0;
+}
+
+.li{
+    background-color: #F2F1F3;
+    border-radius: 100%;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.22);
+    padding: 15px;
+    list-style: none;
+    transition: transform 0.3s ease;
+}
+
+.li:hover{
+   transform: translateY(-15px);
+   cursor: pointer;
+}
+
+.Contatos{
+  display:flex;
+  width:fit-content;
+  margin: 40px auto 0 auto;
+  gap: 15px;
+
+
+}
+
+.contato{
+  width:50px;
+}
+
+
+@media screen and  (max-width: 1400px){
+  .Pc{
+  width: 700px;
+  left: 45vw;
+  }  
+}
+
+@media screen and  (max-width: 1200px){
+
+  html{
+    font-size: 80%;
+  }
+
+  .ViewPort_1{
+    height: fit-content;
+  }
+
+  .MainTitle{
+    margin-top:300px;
+    text-align: center;
+  }
+  .MainSubTitle{
+    text-align: center;
+  }
+  .Main{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .Pc{
+    margin-top: 100px;;
+    position:relative;
+    margin-bottom: 80px;
+    top:0;
+    left:0;
+  }
+
+  .ViewPort_2{
+    flex-direction: row;
+    height: fit-content;
+  }
+}
+
+
+@media screen and  (max-width: 992px){
+
+  .ViewPort_1{
+    height: 100vh;
+  }
+  .Main{
+    width: fit-content;
+    height: fit-content;
+    margin: auto auto;
+    position: relative;
+    top: 60%;
+    transform: translateY(-50%); 
+  }
+
+  .MainTitle{
+    margin-top:0;
+  }
+
+
+  .menu{
+    display:none;
+  }
+}
+
+@media screen and  (max-width: 815px){
+ 
+ .MainTitle{
+    font-size: 6.8rem;
+    line-height: 60px;
+  }
+  .Pc{
+    width: 550px;
+    margin: 100px auto;
+  }
+  .Menu2{
+    display:block;
+  }
+  .LogoMobile{
+    display: block;
+    width: 60px;
+    margin: 0 auto 0 auto;
+  }
+  .ViewPort_1{
+    padding-top: 20px;
+  }
+}
+
+@media screen and  (max-width: 815px){
+
+  .MainTitle{
+    font-size: 12vw;;
+  }
+  .MainSubTitle{
+    font-size: 6vw;
+  }
+
+  .Pc{
+    width:80vw;
+  }
+
+  .ViewPort_3Title{
+    font-size: 7.2vw;
+  }
+
+.li{
+
+  width:8vw;
+  height: 8vw;
+}
+.contato{
+  width: 8vw;
+}
+
+}
+
+/* @media screen and (max-width: 1000px){
+
+.ViewPort_1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  background-color: #100d17;
+
+  }
+  header {
+    display: flex;
+    width: 90vw;
+    position: absolute;
+    left: 5vw;
+    right: 5vw;
+    top: 2vh;
+  }
+  .HeaderPortifolio,
+  .HeaderSkils,
+  .HeaderSobre,
+  .HeaderContato {
+    display: none;
+  }
+  .Logo {
+    margin-right: auto;
+  }
+  .MainTitle {
+    color: white;
+    margin: 35vh auto 0 auto;
+    font-size: clamp(1.8em, 14vw +3em, 3em);
+    font-family: "Russo One", sans-serif;
+    font-weight: 1;
+    text-align: center;
+    width:90vw;
+    display:block;
+
+  }
+  .MainSubTitle {
+    color: white;
+    margin-top: 0.4rem;
+    font-size: clamp(1.2em, 1.8em, 2em);    
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 1;
+    text-align: center;
+  }
+  .Front-End {
+    color: #5125ff;
+  }
+  .Pc {
+    height: auto;
+    width: 90vw;
+    margin: 10rem auto 0 auto;
+  }
+
+  ViewPort 2
+
+  .ViewPort_2 {
+    width: 100vw;
+    height: fit-content;
+    background-color: #151020;
+    display: flex;
+    flex-direction: column;
+  }
+  .Eu {
+    display: none;
+  }
+  .EuMobile {
+    height: auto;
+    width: 60vw;
+    display: block;
+    margin: 4rem auto 0 auto;
+  }
+  .QuemEVambertoSilva {
+    font-family: "Russo one", sans-serif;
+    font-size: 2.9em;
+    color: white;
+    text-align: center;
+    font-weight: 1;
+    margin-top: 10rem;
+  }
+  .MinhaDescricaoEmTexto {
+    color: white;
+    font-family: "Space mono", monospace;
+    text-align: center;
+    width: 80vw;
+    margin: 4rem auto 0 auto;
+    font-weight: 1;
+    font-size: 1.8rem;
+  }
+  .BtnConhecerMais {
+    display: block;
+    margin: 0 auto 4em auto;
+    padding: 29px 126px 29px 126px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    background-color: #3d1db7;
+    font-family: "Archivo black", sans-serif;
+    font-weight: 1;
+    font-size: 1.5rem;
+  }
+
+  ViewPort 3
+
+  .ViewPort_3 {
+    width: 100vw;
+    height: fit-content;
+    background-color: #100d17;
+  }
+  .none {
+    color: #100d17;
+  }
+  .ViewPort_3Title {
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    font-family: "Russo One", sans-serif;
+    font-weight: 1;
+    margin-top: 6rem;
+  }
+
+  .ProjetoContainerM {
+    width: 86vw;
+    margin: 16rem auto 0 auto;
+    padding-bottom: 6em;
+  }
+  .ProjetoContainer {
+    background-color: #1b1725;
+    width: 86vw;
+    height: fit-content;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 2rem;
+    }
+  .ContainerTitle {
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    font-family: "Russo One", sans-serif;
+    margin-top: 2rem;
+  }
+  .ContainerSubtitle {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Space Mono", monospace;
+    margin: 1rem 1em  2em 1em;
+  }
+
+  /* ViewPort 4 */
+
+
+
+   
+

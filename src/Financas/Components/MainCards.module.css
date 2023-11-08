@@ -1,0 +1,42 @@
+@media screen and (min-width: 1000px){
+.title{
+    font-size: 1.8em;
+    color:rgb(60, 60, 60);
+    font-weight: 400;
+}
+
+.box{
+    background-color: white;
+    width: 60vw;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em 0 0 2em;
+}
+
+.charts{
+    margin-top: 1em;
+}
+}
+
+@media screen and (max-width: 1000px){
+    .title{
+    font-size: 1.4em;
+    color:rgb(60, 60, 60);
+    font-weight: 400;
+
+
+}
+
+.box{
+    background-color: white;
+    width: 80vw;
+    height: 12em;
+    border-radius: 1em;
+    padding: 2em 0 0 0em;
+
+}
+
+.charts{
+    margin-top: 1em;
+}
+}

@@ -1,0 +1,54 @@
+.Container{
+    width:14vw;
+    height:6em;
+    background-color: white;
+    border-radius: 1em;;
+    margin-top:2em;
+    font-family: "Inter";
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 10px;
+
+}
+
+.Title{
+    margin-left:1em;
+    margin-top:0.5em;
+    color:rgb(117, 117, 117);
+    font-size:0.95em
+}
+
+.Value{
+    margin-left:1em;
+    margin-top:1.2em;
+    color:rgb(0, 0, 0);
+    font-size:1.1em;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .Container{
+    width:80vw;
+    height:6em;
+    background-color: white;
+    border-radius: 1em;;
+    margin-top:2em;
+    font-family: "Inter";
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 10px;
+
+}
+
+.Title{
+    margin-left:1em;
+    margin-top:0.5em;
+    color:rgb(117, 117, 117);
+    font-size:0.95em
+}
+
+.Value{
+    margin-left:1em;
+    margin-top:1.2em;
+    color:rgb(0, 0, 0);
+    font-size:1.1em;
+
+}
+
+}

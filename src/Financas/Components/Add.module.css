@@ -1,0 +1,28 @@
+.Add{
+    width:2.4em;
+    height: 2.4em;
+    color:white;
+    background-color: #650592;
+    border-radius: 4em;
+    margin-left: 2em;
+}
+
+.Add:hover{
+    cursor: pointer;
+}
+
+.Container{
+    margin-top: 10em;
+    display: flex;
+    align-items: center;
+
+}
+
+.Button{
+    border:none;
+}
+
+.Title{
+    font-size:2em;
+    font-weight: 500;
+}
