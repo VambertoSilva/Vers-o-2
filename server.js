@@ -27,7 +27,7 @@ app.post("/api/data", (req, res) => {
 });
 
 // Inicia o servidor na porta desejada
-const port = process.env.PORT || "0080"; // ou qualquer outra porta que você preferir
+const port = process.env.PORT || "8080"; // ou qualquer outra porta que você preferir
 app.listen(port, () => {
   console.log(`Servidor iniciado na porta ${port}`);
 });
